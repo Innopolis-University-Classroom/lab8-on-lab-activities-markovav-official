@@ -5,7 +5,6 @@ import com.muwaffaq.innopolis.solid.LSP_IS.correct.actions.Flyable;
 import com.muwaffaq.innopolis.solid.LSP_IS.correct.actions.Hatchable;
 import com.muwaffaq.innopolis.solid.LSP_IS.correct.actions.Swimable;
 
-// liskov principle the parent and the child can be reliable
 public class Duck implements Animal, Flyable, Eatable, Hatchable, Swimable {
 
     @Override
